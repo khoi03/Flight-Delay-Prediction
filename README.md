@@ -3,7 +3,9 @@
 </sub>
 
 In this research, we have utilized a range of machine learning algorithms, such as Decision Tree (DT), Random Forest (RF), XGBoost (XGB), and K-nearest neighbors (KNN), in combination with data augmentation technique (ADASYN) and Bayesian Optimization to enhance prediction accuracy.
-A majority of the processing part is modified from [Kaggle](https://www.kaggle.com/code/fabiendaniel/predicting-flight-delays-tutorial/notebook) and you can download the dataset from [Kaggle](https://www.kaggle.com/datasets/usdot/flight-delays?datasetId=810&sortBy=voteCount&select=airlines.csv).
+
+You can access the code via the Google Colab link provided. The majority of the data processing steps have been adapted from [Kaggle resources](https://www.kaggle.com/code/fabiendaniel/predicting-flight-delays-tutorial/notebook). The dataset itself is also available for download from [Kaggle](https://www.kaggle.com/datasets/usdot/flight-delays?datasetId=810&sortBy=voteCount&select=airlines.csv).
+
 
 ## Distribution of classes
 The prevalence of class 0 over class 1 in the dataset, indicating a significant imbalance in class distribution. Therefore, to ensure the accuracy of our model is not skewed by imbalances between class 1 and class 0, we implemented the ADASYN (Adaptive Synthetic) technique to augment our dataset. By employing ADASYN, we aim to create a more balanced and representative dataset that enables our model to make accurate predictions across both classes.
